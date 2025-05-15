@@ -1,0 +1,84 @@
+*{
+margin: 0;
+padding: 0;
+background: rgba(16,18,24,255);
+}
+
+.Encabezado{
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+a{
+  margin-top:6px;
+  color:white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.Imagen_Menu{
+  margin-top: 6px;
+  margin-left: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.Imagen_Avatar{
+  margin-left: 5px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.Cuerpo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Imagen_google{
+  width: 270px;
+  margin-top: 10px;
+}
+
+
+.Cuerpo-texto{
+  background-color: #3f4454;
+  width: 440px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: white;
+}
+
+.Cuerpo-Contenido_elementos{
+  margin-top: 6px;
+  background-color: #3f4454;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 580px;
+  height: 48px;
+  margin: 30px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;  
+  border-bottom-right-radius: 24px;
+}
+
+.Cuerpo-icono{
+  background-color: #3f4454;
+}
+
+.pie{
+  background-color: #3f4454;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+}
