@@ -7,13 +7,13 @@ background: rgba(16,18,24,255);
 .Encabezado{
   display: flex;
   justify-content: end;
+  align-items: center;
   gap: 15px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-right: 15px;
+  height: 10vh;
 }
 
-a{
+.Encabezado-texto{
   margin-top:6px;
   color:white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -37,8 +37,17 @@ a{
 
 .Cuerpo{
   display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 73vh;
+}
+
+.Cuerpo-google_busqueda{
+  display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  width: 600px;
 }
 
 .Imagen_google{
@@ -49,7 +58,7 @@ a{
 
 .Cuerpo-texto{
   background-color: #3f4454;
-  width: 440px;
+  width: 420px;
   border: none;
   outline: none;
   font-size: 20px;
@@ -57,15 +66,14 @@ a{
 }
 
 .Cuerpo-Contenido_elementos{
-  margin-top: 6px;
+  margin-top: 30px;
   background-color: #3f4454;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 15px;
-  width: 580px;
+  width: 95%;
   height: 48px;
-  margin: 30px;
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
   border-bottom-left-radius: 24px;  
@@ -76,9 +84,85 @@ a{
   background-color: #3f4454;
 }
 
-.pie{
+.Cuerpo-Contenedor_botones{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.Cuerpo-boton{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   background-color: #3f4454;
   color: white;
-  position: absolute;
-  bottom: 0px;
+  margin-top: 30px;
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.Pie{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  height: 16.7vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+.Pie-País{
+  display: flex;
+  justify-content: left;
+  padding: 15px 0px 15px 20px;
+  background-color: #1f2128;
+  border-bottom: 1px solid #3f4454;
+}
+
+.Pie-País_texto{
+  background-color: #1f2128;
+}
+
+.Pie-Información{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 18px 20px 18px 20px;
+  background-color: #1f2128;
+}
+
+.Pie-Información_general{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  background-color: #1f2128;
+}
+
+.Pie-Inoformación_configuración{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  background-color: #1f2128;
+}
+
+.Pie-Información_general_texto{
+  background-color: #1f2128;
+  color: white;
+  text-decoration: none;
+}
+
+.Pie-Información_general_texto:hover{
+  text-decoration: underline;
 }

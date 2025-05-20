@@ -4,40 +4,50 @@
   <meta charset="UTF-8">
   <link href="css/style.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Google</title>
 </head>
 <body>
-  <header class="Encabezado">
-    <a href="https://mail.google.com/mail/u/0/?hl=es#inbox">Gmail</a>
-    <a href="https://www.google.com/imghp?hl=es-419&ogbl">Imágenes</a>
+<header class="Encabezado">
+    <a href="https://mail.google.com/mail/u/0/?hl=es#inbox" target="_blank" class="Encabezado-texto">Gmail</a>
+    <a href="https://www.google.com/imghp?hl=es-419&ogbl" target="_blank" class="Encabezado-texto">Imágenes</a>
     <img src="img/circle_menu.png" class="Imagen_Menu">
     <img src="img/avatar.png" class="Imagen_Avatar">
   </header>
   <section class="Cuerpo">
-    <img src="img/google.png" class="Imagen_google">
-    
-    <div class="Cuerpo-Contenido_elementos">
-      <img src="img/lupa.png" class="Cuerpo-icono">
-      <input type="text" class="Cuerpo-texto">
-      <img src="img/microfono.png" class="Cuerpo-icono">
-      <img src="img/camara.png" class="Cuerpo-icono">
+    <div class="Cuerpo-google_busqueda">
+      <img src="img/google.png" class="Imagen_google">
+      <div class="Cuerpo-Contenido_elementos">
+        <img src="img/lupa.png" class="Cuerpo-icono">
+        <input type="text" class="Cuerpo-texto">
+        <img src="img/microfono.png" class="Cuerpo-icono">
+        <img src="img/camara.png" class="Cuerpo-icono">
+      </div>
+      <div class="Cuerpo-Contenedor_botones">
+        <input type="button" value="Buscar en Google" onclick="window.location.href='https://www.google.com/'" class="Cuerpo-boton Cuerpo-boton_buscar">
+        <input type="button" value="Voy a tener suerte" onclick="window.location.href='https://doodles.google/'" class="Cuerpo-boton Cuerpo-boton_suerte">
+      </div>
+      
     </div>
+
   </section>
-  <footer class="pie">
-    <div class="Pais">
-      <p>Colombia</p>
+  <footer class="Pie">
+    <div class="Pie-País">
+      <p class="Pie-País_texto">Colombia</p>
     </div>
-    <article>
-      <a>Sobre Google</a>
-      <a>Publicidad</a>
-      <a>Negocios</a>
-      <a>Cómo fúnciona la Búsqueda</a>
-    </article>
-    <article>
-      <a>Privacidad</a>
-      <a>Condiciones</a>
-      <a>Configuración</a>
-    </article>
-  </footer>
+    <div class="Pie-Información">
+      <article class="Pie-Información_general">
+        <a href="https://about.google/?utm_source=google-CO&utm_medium=referral&utm_campaign=hp-footer&fg=1" target="_blank" class="Pie-Información_general_texto">Sobre Google</a>
+        <a href="https://business.google.com/es-all/google-ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" target="_blank" class="Pie-Información_general_texto">Publicidad</a>
+        <a href="https://business.google.com/es-all/business-profile/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1" target="_blank" class="Pie-Información_general_texto">Negocios</a>
+        <a href="https://www.google.com/search/howsearchworks/?fg=1" target="_blank" class="Pie-Información_general_texto">Cómo fúnciona la Búsqueda</a>
+      </article>
+      <article class="Pie-Inoformación_configuración">
+        <a href="https://policies.google.com/privacy?hl=es-419&fg=1" target="_blank" class="Pie-Información_general_texto">Privacidad</a>
+        <a href="https://policies.google.com/terms?hl=es-419&fg=1" target="_blank" class="Pie-Información_general_texto">Condiciones</a>
+        <a class="Pie-Información_general_texto">Configuración</a>
+      </article>
+    </div>
+
+  </footer>  
 </body>
 </html>
